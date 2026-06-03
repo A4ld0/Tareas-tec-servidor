@@ -1,0 +1,2 @@
+[WARN] 6/3/2026, 12:54:41 PM - Warning 4
+[ERROR] 6/3/2026, 12:54:41 PM - Error 4
