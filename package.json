@@ -1,0 +1,21 @@
+{
+  "name": "cv-contacto-express",
+  "version": "1.0.0",
+  "description": "Pagina de presentacion personal con formulario de contacto usando Node.js y Express.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "express",
+    "cv",
+    "contacto"
+  ],
+  "author": "Aldo Ramon Velazquez Fonseca",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
