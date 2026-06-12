@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Aldo Velazquez</title>
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/contacto.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Navegacion principal">
+      <a class="brand" href="/">Aldo Velazquez</a>
+      <div class="nav-links">
+        <a href="/">Inicio</a>
+        <a href="/contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="contact-layout">
+    <section class="contact-intro">
+      <p class="eyebrow">Contacto</p>
+      <h1>Enviame un mensaje</h1>
+      <p>
+        Usa este formulario para enviar una pregunta, propuesta o comentario. El mensaje se procesara
+        desde Express y se enviara mediante Web3Forms.
+      </p>
+    </section>
+
+    <section class="form-panel" aria-label="Formulario de contacto">
+      <form action="/contacto" method="POST">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+
+        <label for="email">Correo electronico</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="7" required></textarea>
+
+        <button class="button primary" type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Aldo Ramon Velazquez Fonseca</p>
+  </footer>
+</body>
+</html>
